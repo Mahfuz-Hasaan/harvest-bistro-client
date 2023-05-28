@@ -7,7 +7,6 @@ import PopularMenu from '../PopularMenu/PopularMenu';
 import Recommendations from '../Recommendations/Recommendations';
 import Feteared from '../Feteared/Feteared';
 import Testimonials from '../Testimonials/Testimonials';
-import Reviews from '../../Reviews/Reviews';
 
 const Home = () => {
     return (
@@ -19,7 +18,7 @@ const Home = () => {
             <Recommendations></Recommendations>
             <Feteared></Feteared>
             <Testimonials></Testimonials>
-            <Reviews></Reviews>
+            
         </div>
     );
 };
