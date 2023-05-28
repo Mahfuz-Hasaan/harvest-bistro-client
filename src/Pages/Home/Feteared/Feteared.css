@@ -1,0 +1,28 @@
+.featured-item {
+    position: relative;
+    height: 850px;
+  }
+  
+  .featured-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .featured-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/Home/featured.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+  
